@@ -3,7 +3,21 @@
 
     <test name="Test1">
         <classes>
-            <class name="test.Demo1"/>
+            <class name="test.Demo1">
+                <methods>
+                    <exclude name="demo2"/>
+                </methods>
+            </class>
+            <class name="test.Demo2">
+                <methods>
+                    <include name="Car"/>
+                </methods>
+            </class>
+            <class name="test.Demo3">
+                <methods>
+                    <exclude name="Car.*"/>
+                </methods>
+            </class>
         </classes>
     </test>
 
