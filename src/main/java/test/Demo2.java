@@ -1,19 +1,21 @@
 package test;
 
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Demo2 {
     @Test
-    public void pr(){
-        System.out.println("Demo 2 Class");
+    public void EV(){
+        System.out.println("EV");
     }
 
-    @Test
+    @AfterTest
     public void Car(){
         System.out.println("Car");
     }
 
-    @Test
+    @BeforeTest
     public void Bike(){
         System.out.println("Bike");
     }
