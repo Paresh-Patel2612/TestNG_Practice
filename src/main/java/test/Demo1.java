@@ -5,17 +5,22 @@ import org.testng.annotations.Test;
 public class Demo1 {
 
     @Test
+    public void Loan_One(){
+        System.out.println("Loan One");
+    }
+
+    @Test
+    public void Loan_Two(){
+        System.out.println("Loan Two");
+    }
+
+    @Test
+    public void Loan_Three(){
+        System.out.println("Loan Three");
+    }
+
+    @Test
     public void demo(){
-        System.out.println("Hello");
-    }
-
-    @Test
-    public void demo2(){
-        System.out.println("Hello 2");
-    }
-
-    @Test
-    public void demo3(){
-        System.out.println("Hello 3");
+        System.out.println("Not Executed");
     }
 }
